@@ -17,5 +17,6 @@
 	$row = mysqli_fetch_assoc($result);	
 
 	echo json_encode($row);
-	//echo mysqli_num_rows($result);			
+	//echo mysqli_num_rows($result);
+	
 ?>
